@@ -19,8 +19,6 @@ Sample Input Request:
    }
 ]
 
-===
-# GET
 We also need to get transaction based on date and type.
 Sample Get Request
                 {
@@ -34,7 +32,6 @@ Sample Get Response
        "amount": "98.36"
    }
 
-===
 Since number of transactions can grow, retrieving data needs to be efficient.
 You only need to design one GET and one POST Api.
 It is desirable, but not required, if you can also deploy code to public cloud of your choice and
